@@ -1,10 +1,16 @@
 import sys
 import pendulum
+import os
+
+
 
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 from airflow import DAG
+
+# # Add the scripts directory to the Python path
+# sys.path.insert(1, '/home/august/RealTimeDataWarehouse/RealTimeDataWarehouse/scripts')
 from scripts.account_dim_generator import generate_account_dim_data
 
 # setup
@@ -20,7 +26,7 @@ default_args = {
     'email_on_failure': True,
     'email_on_retry': False,
     'retries': 3, # retry 3 times
-    'retry_delay': datetime.timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=5),
 }
 
 with DAG('account_dim_generator',

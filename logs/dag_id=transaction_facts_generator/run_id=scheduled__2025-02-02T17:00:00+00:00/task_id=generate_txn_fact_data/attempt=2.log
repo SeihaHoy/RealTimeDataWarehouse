@@ -1,0 +1,29 @@
+[2025-02-13T13:50:35.560+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-02-02T17:00:00+00:00 [queued]>
+[2025-02-13T13:50:35.582+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-02-02T17:00:00+00:00 [queued]>
+[2025-02-13T13:50:35.583+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 4
+[2025-02-13T13:50:35.626+0000] {taskinstance.py:1380} INFO - Executing <Task(KafkaProduceOperator): generate_txn_fact_data> on 2025-02-02 17:00:00+00:00
+[2025-02-13T13:50:35.646+0000] {standard_task_runner.py:57} INFO - Started process 282 to run task
+[2025-02-13T13:50:35.689+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'transaction_facts_generator', 'generate_txn_fact_data', 'scheduled__2025-02-02T17:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/transaction_facts_generator_dag.py', '--cfg-path', '/tmp/tmpoz94vtnw']
+[2025-02-13T13:50:35.701+0000] {standard_task_runner.py:85} INFO - Job 124: Subtask generate_txn_fact_data
+[2025-02-13T13:50:35.854+0000] {task_command.py:415} INFO - Running <TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-02-02T17:00:00+00:00 [running]> on host 5879df32f101
+[2025-02-13T13:50:36.034+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hoyseiha@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transaction_facts_generator' AIRFLOW_CTX_TASK_ID='generate_txn_fact_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-02T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-02T17:00:00+00:00'
+[2025-02-13T13:50:37.755+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka_broker:9092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-02-13T13:50:37.755+0000] {conn.py:315} ERROR - DNS lookup failed for kafka_broker:9092 (0)
+[2025-02-13T13:50:37.755+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2025-02-13T13:50:39.447+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka_broker:9092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-02-13T13:50:39.447+0000] {conn.py:315} ERROR - DNS lookup failed for kafka_broker:9092 (0)
+[2025-02-13T13:50:39.448+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/plugins/kafka_operator.py", line 53, in execute
+    producer = KafkaProducer(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/producer/kafka.py", line 381, in __init__
+    client = KafkaClient(metrics=self._metrics, metric_group_prefix='producer',
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2025-02-13T13:50:39.462+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=transaction_facts_generator, task_id=generate_txn_fact_data, execution_date=20250202T170000, start_date=20250213T135035, end_date=20250213T135039
+[2025-02-13T13:50:39.673+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 124 for task generate_txn_fact_data (NoBrokersAvailable; 282)
+[2025-02-13T13:50:39.695+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-13T13:50:39.748+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

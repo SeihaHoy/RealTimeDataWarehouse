@@ -1,5 +1,11 @@
 from datetime import datetime, timedelta
 import pendulum
+import os
+import sys
+
+# sys.path.insert(1, os.path.join(os.path.dirname(__file__), '/opt/airflow/plugins/'))
+# Add the plugins directory to the Python path
+sys.path.insert(1, '/opt/airflow/plugins/')
 
 from airflow import DAG
 from airflow.operators.empty import EmptyOperator
@@ -17,7 +23,7 @@ default_args = {
     'email_on_failure': True,
     'email_on_retry': False,
     'retries': 3, # retry 3 times
-    'retry_delay': datetime.timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=5),
     'start_date': start_date
 }
 

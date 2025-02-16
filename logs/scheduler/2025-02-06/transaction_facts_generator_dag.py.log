@@ -1,0 +1,476 @@
+[2025-02-06T15:19:02.982+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:02.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:19:02.985+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:19:02.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:02.988+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:19:02.986+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:19:02.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:03.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.027 seconds
+[2025-02-06T15:19:33.814+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:33.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:19:33.819+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:19:33.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:33.823+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:19:33.822+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:19:33.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:19:33.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.040 seconds
+[2025-02-06T15:20:03.968+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:03.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:20:03.971+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:20:03.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:03.974+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:20:03.973+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:20:03.974+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:03.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.028 seconds
+[2025-02-06T15:20:34.803+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:34.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:20:34.806+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:20:34.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:34.808+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:20:34.807+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:20:34.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:20:34.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.027 seconds
+[2025-02-06T15:21:05.420+0000] {processor.py:186} INFO - Started process (PID=1411) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:05.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:21:05.424+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:21:05.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:05.427+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:21:05.426+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:21:05.428+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:05.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.029 seconds
+[2025-02-06T15:21:36.338+0000] {processor.py:186} INFO - Started process (PID=1717) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:36.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:21:36.343+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:21:36.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:36.347+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:21:36.346+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:21:36.348+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:21:36.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.068 seconds
+[2025-02-06T15:22:07.342+0000] {processor.py:186} INFO - Started process (PID=2023) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:07.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:22:07.345+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:22:07.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:07.347+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:22:07.346+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:22:07.347+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:07.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.026 seconds
+[2025-02-06T15:22:38.158+0000] {processor.py:186} INFO - Started process (PID=2329) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:38.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:22:38.162+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:22:38.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:38.165+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:22:38.164+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:22:38.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:22:38.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.032 seconds
+[2025-02-06T15:23:09.093+0000] {processor.py:186} INFO - Started process (PID=2635) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:09.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:23:09.096+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:23:09.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:09.099+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:23:09.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:23:09.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:09.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.030 seconds
+[2025-02-06T15:23:40.125+0000] {processor.py:186} INFO - Started process (PID=2941) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:40.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:23:40.130+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:23:40.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:40.133+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:23:40.132+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:23:40.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:23:40.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.036 seconds
+[2025-02-06T15:24:10.243+0000] {processor.py:186} INFO - Started process (PID=3247) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:24:10.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T15:24:10.247+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:24:10.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:24:10.250+0000] {logging_mixin.py:190} INFO - [2025-02-06T15:24:10.249+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T15:24:10.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T15:24:10.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.030 seconds
+[2025-02-06T16:07:18.195+0000] {processor.py:157} INFO - Started process (PID=184) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:18.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:07:18.196+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:07:18.196+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:18.200+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:07:18.199+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:07:18.200+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:18.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.026 seconds
+[2025-02-06T16:07:48.875+0000] {processor.py:157} INFO - Started process (PID=445) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:48.876+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:07:48.877+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:07:48.877+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:48.880+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:07:48.879+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:07:48.881+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:07:48.899+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.027 seconds
+[2025-02-06T16:08:19.028+0000] {processor.py:157} INFO - Started process (PID=715) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:19.029+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:08:19.030+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:08:19.029+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:19.034+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:08:19.032+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:08:19.034+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:19.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.032 seconds
+[2025-02-06T16:08:49.707+0000] {processor.py:157} INFO - Started process (PID=979) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:49.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:08:49.711+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:08:49.709+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:49.716+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:08:49.714+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:08:49.716+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:08:49.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.041 seconds
+[2025-02-06T16:09:19.905+0000] {processor.py:157} INFO - Started process (PID=1240) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:19.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:09:19.908+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:09:19.907+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:19.916+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:09:19.913+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:09:19.916+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:19.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.048 seconds
+[2025-02-06T16:09:50.470+0000] {processor.py:157} INFO - Started process (PID=1501) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:50.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:09:50.473+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:09:50.473+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:50.478+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:09:50.475+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:09:50.478+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:09:50.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.034 seconds
+[2025-02-06T16:10:20.817+0000] {processor.py:157} INFO - Started process (PID=1762) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:20.819+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:10:20.820+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:10:20.819+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:20.827+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:10:20.824+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:10:20.828+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:20.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.036 seconds
+[2025-02-06T16:10:51.036+0000] {processor.py:157} INFO - Started process (PID=2023) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:51.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:10:51.038+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:10:51.038+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:51.042+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:10:51.040+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:10:51.042+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:10:51.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.024 seconds
+[2025-02-06T16:11:21.160+0000] {processor.py:157} INFO - Started process (PID=2284) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:21.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:11:21.162+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:11:21.161+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:21.167+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:11:21.164+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:11:21.168+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:21.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.033 seconds
+[2025-02-06T16:11:51.606+0000] {processor.py:157} INFO - Started process (PID=2545) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:51.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:11:51.608+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:11:51.608+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:51.613+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:11:51.610+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:11:51.613+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:11:51.630+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.026 seconds
+[2025-02-06T16:12:22.968+0000] {processor.py:157} INFO - Started process (PID=2803) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:22.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:12:22.970+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:12:22.970+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:22.973+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:12:22.972+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:12:22.974+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:22.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.025 seconds
+[2025-02-06T16:12:53.271+0000] {processor.py:157} INFO - Started process (PID=2896) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:53.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:12:53.274+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:12:53.272+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:53.280+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:12:53.277+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:12:53.281+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:12:53.309+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.041 seconds
+[2025-02-06T16:13:25.900+0000] {processor.py:157} INFO - Started process (PID=3157) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:25.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:13:25.904+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:13:25.902+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:25.912+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:13:25.909+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:13:25.912+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:25.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.077 seconds
+[2025-02-06T16:13:58.960+0000] {processor.py:157} INFO - Started process (PID=3418) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:58.961+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:13:58.964+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:13:58.962+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:58.971+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:13:58.968+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:13:58.972+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:13:59.023+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.068 seconds
+[2025-02-06T16:14:31.366+0000] {processor.py:157} INFO - Started process (PID=3679) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:14:31.367+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:14:31.369+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:14:31.368+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:14:31.377+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:14:31.374+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:14:31.377+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:14:31.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.080 seconds
+[2025-02-06T16:15:04.342+0000] {processor.py:157} INFO - Started process (PID=3940) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:04.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:15:04.344+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:15:04.344+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:04.352+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:15:04.349+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:15:04.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:04.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.057 seconds
+[2025-02-06T16:15:36.995+0000] {processor.py:157} INFO - Started process (PID=4201) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:36.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:15:36.997+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:15:36.996+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:37.005+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:15:37.002+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:15:37.005+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:15:37.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.100 seconds
+[2025-02-06T16:16:09.655+0000] {processor.py:157} INFO - Started process (PID=4462) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:09.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:16:09.659+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:16:09.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:09.667+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:16:09.664+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:16:09.667+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:09.711+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.061 seconds
+[2025-02-06T16:16:43.025+0000] {processor.py:157} INFO - Started process (PID=4723) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:43.027+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:16:43.029+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:16:43.028+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:43.036+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:16:43.033+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:16:43.036+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:16:43.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.094 seconds
+[2025-02-06T16:17:15.209+0000] {processor.py:157} INFO - Started process (PID=4984) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:15.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:17:15.212+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:17:15.211+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:15.215+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:17:15.214+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:17:15.215+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:15.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.040 seconds
+[2025-02-06T16:17:48.177+0000] {processor.py:157} INFO - Started process (PID=5245) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:48.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:17:48.178+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:17:48.178+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:48.182+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:17:48.180+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:17:48.182+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:17:48.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.025 seconds
+[2025-02-06T16:18:20.938+0000] {processor.py:157} INFO - Started process (PID=5506) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:20.940+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:18:20.940+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:18:20.940+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:20.943+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:18:20.942+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:18:20.943+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:20.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.026 seconds
+[2025-02-06T16:18:53.713+0000] {processor.py:157} INFO - Started process (PID=5767) to work on /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:53.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/transaction_facts_generator_dag.py for tasks to queue
+[2025-02-06T16:18:53.715+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:18:53.715+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:53.720+0000] {logging_mixin.py:151} INFO - [2025-02-06T16:18:53.718+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/transaction_facts_generator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transaction_facts_generator_dag.py", line 12, in <module>
+    from kafka_operator import KafkaProduceOperator
+ImportError: cannot import name 'KafkaProduceOperator' from 'kafka_operator' (/opt/airflow/plugins/kafka_operator.py)
+[2025-02-06T16:18:53.720+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/transaction_facts_generator_dag.py
+[2025-02-06T16:18:53.741+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/transaction_facts_generator_dag.py took 0.031 seconds

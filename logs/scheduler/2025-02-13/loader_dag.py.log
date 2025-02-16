@@ -1,0 +1,1495 @@
+[2025-02-13T15:40:27.032+0000] {processor.py:157} INFO - Started process (PID=55192) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:27.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:40:27.033+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:40:27.033+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:27.046+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:40:27.040+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:40:27.047+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:27.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.033 seconds
+[2025-02-13T15:40:57.746+0000] {processor.py:157} INFO - Started process (PID=55470) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:57.747+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:40:57.748+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:40:57.748+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:57.758+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:40:57.755+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:40:57.758+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:40:57.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.030 seconds
+[2025-02-13T15:41:28.677+0000] {processor.py:157} INFO - Started process (PID=55748) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:28.678+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:41:28.679+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:41:28.679+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:28.687+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:41:28.685+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:41:28.687+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:28.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.029 seconds
+[2025-02-13T15:41:59.187+0000] {processor.py:157} INFO - Started process (PID=56026) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:59.188+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:41:59.188+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:41:59.188+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:59.195+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:41:59.194+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:41:59.196+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:41:59.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.025 seconds
+[2025-02-13T15:42:29.754+0000] {processor.py:157} INFO - Started process (PID=56304) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:42:29.755+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:42:29.756+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:42:29.756+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:42:29.764+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:42:29.762+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:42:29.764+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:42:29.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:43:00.560+0000] {processor.py:157} INFO - Started process (PID=56582) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:00.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:43:00.561+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:43:00.561+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:00.569+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:43:00.567+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:43:00.570+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:00.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.028 seconds
+[2025-02-13T15:43:30.921+0000] {processor.py:157} INFO - Started process (PID=56860) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:30.922+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:43:30.922+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:43:30.922+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:30.930+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:43:30.928+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:43:30.930+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:43:30.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.027 seconds
+[2025-02-13T15:44:01.194+0000] {processor.py:157} INFO - Started process (PID=57138) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:01.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:44:01.196+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:44:01.195+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:01.203+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:44:01.202+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:44:01.203+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:01.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:44:31.585+0000] {processor.py:157} INFO - Started process (PID=57416) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:31.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:44:31.587+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:44:31.587+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:31.597+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:44:31.593+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:44:31.598+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:44:31.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.030 seconds
+[2025-02-13T15:45:01.779+0000] {processor.py:157} INFO - Started process (PID=57694) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:01.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:45:01.781+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:45:01.781+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:01.789+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:45:01.788+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:45:01.790+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:01.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.028 seconds
+[2025-02-13T15:45:32.458+0000] {processor.py:157} INFO - Started process (PID=57972) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:32.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:45:32.460+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:45:32.459+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:32.467+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:45:32.465+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:45:32.467+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:45:32.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:46:03.085+0000] {processor.py:157} INFO - Started process (PID=58250) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:03.086+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:46:03.087+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:03.087+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:03.094+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:03.093+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:46:03.095+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:03.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:46:35.425+0000] {processor.py:157} INFO - Started process (PID=58527) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:35.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:46:35.427+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:35.426+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:35.435+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:35.433+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 46, in <module>
+    ingest_branch_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:46:35.435+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:35.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.029 seconds
+[2025-02-13T15:46:52.802+0000] {processor.py:157} INFO - Started process (PID=58534) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:52.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:46:52.804+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:52.803+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:52.806+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:52.805+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 55
+    # ingest_account_dim #>> ingest_customer_dim >> ingest_branch_dim
+                                                                    ^
+SyntaxError: unexpected EOF while parsing
+[2025-02-13T15:46:52.806+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:52.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.021 seconds
+[2025-02-13T15:46:57.829+0000] {processor.py:157} INFO - Started process (PID=58539) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:57.830+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:46:57.831+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:57.831+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:57.841+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:46:57.839+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:46:57.841+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:46:57.857+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.031 seconds
+[2025-02-13T15:47:00.873+0000] {processor.py:157} INFO - Started process (PID=58544) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:00.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:47:00.874+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:47:00.874+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:00.882+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:47:00.880+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:47:00.882+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:00.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.024 seconds
+[2025-02-13T15:47:31.308+0000] {processor.py:157} INFO - Started process (PID=58822) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:31.309+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:47:31.310+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:47:31.310+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:31.317+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:47:31.316+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:47:31.318+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:47:31.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.027 seconds
+[2025-02-13T15:48:01.715+0000] {processor.py:157} INFO - Started process (PID=59100) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:01.716+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:48:01.717+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:48:01.716+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:01.725+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:48:01.723+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:48:01.725+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:01.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.028 seconds
+[2025-02-13T15:48:32.137+0000] {processor.py:157} INFO - Started process (PID=59378) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:32.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:48:32.139+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:48:32.139+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:32.146+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:48:32.144+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:48:32.146+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:48:32.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:49:02.711+0000] {processor.py:157} INFO - Started process (PID=59656) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:02.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:49:02.712+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:49:02.712+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:02.719+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:49:02.718+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:49:02.719+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:02.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.025 seconds
+[2025-02-13T15:49:33.627+0000] {processor.py:157} INFO - Started process (PID=59934) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:33.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:49:33.630+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:49:33.629+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:33.637+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:49:33.635+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:49:33.637+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:49:33.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:50:04.133+0000] {processor.py:157} INFO - Started process (PID=60212) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:04.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:50:04.135+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:04.135+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:04.142+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:04.140+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:50:04.142+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:04.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.025 seconds
+[2025-02-13T15:50:12.177+0000] {processor.py:157} INFO - Started process (PID=60217) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:12.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:50:12.179+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:12.179+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:12.187+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:12.185+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:50:12.187+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:12.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:50:14.214+0000] {processor.py:157} INFO - Started process (PID=60222) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:14.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:50:14.215+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:14.215+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:14.223+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:14.221+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:50:14.223+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:14.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.031 seconds
+[2025-02-13T15:50:44.522+0000] {processor.py:157} INFO - Started process (PID=60500) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:44.523+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:50:44.524+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:44.523+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:44.530+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:50:44.529+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:50:44.531+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:50:44.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.023 seconds
+[2025-02-13T15:51:14.797+0000] {processor.py:157} INFO - Started process (PID=60778) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:14.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:51:14.799+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:51:14.799+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:14.807+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:51:14.805+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:51:14.807+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:14.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.027 seconds
+[2025-02-13T15:51:45.170+0000] {processor.py:157} INFO - Started process (PID=61056) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:45.172+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:51:45.172+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:51:45.172+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:45.181+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:51:45.179+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:51:45.181+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:51:45.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.029 seconds
+[2025-02-13T15:52:15.281+0000] {processor.py:157} INFO - Started process (PID=61334) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:15.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:52:15.283+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:15.283+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:15.290+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:15.288+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 28, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:52:15.290+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:15.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.026 seconds
+[2025-02-13T15:52:38.966+0000] {processor.py:157} INFO - Started process (PID=61612) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:38.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:52:38.968+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:38.968+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:38.977+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:38.975+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 29, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:52:38.978+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:38.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.033 seconds
+[2025-02-13T15:52:40.023+0000] {processor.py:157} INFO - Started process (PID=61617) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:40.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:52:40.024+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:40.024+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:40.026+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:40.026+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 20
+    }
+    ^
+SyntaxError: invalid syntax
+[2025-02-13T15:52:40.027+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:40.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.022 seconds
+[2025-02-13T15:52:43.044+0000] {processor.py:157} INFO - Started process (PID=61622) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:43.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:52:43.045+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:43.045+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:43.053+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:43.051+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 29, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:52:43.053+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:43.069+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.029 seconds
+[2025-02-13T15:52:44.082+0000] {processor.py:157} INFO - Started process (PID=61627) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:44.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:52:44.083+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:44.083+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:44.092+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:52:44.091+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 29, in <module>
+    ingest_account_dim = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 930, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1045, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1106, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2540, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-02-13T15:52:44.093+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:52:44.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.028 seconds
+[2025-02-13T15:53:08.111+0000] {processor.py:157} INFO - Started process (PID=61903) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:08.112+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:53:08.113+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:08.113+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:08.116+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:08.115+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/loader_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/loader_dag.py", line 19
+    'start_date: start_date,
+                           ^
+SyntaxError: EOL while scanning string literal
+[2025-02-13T15:53:08.116+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:08.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.024 seconds
+[2025-02-13T15:53:09.159+0000] {processor.py:157} INFO - Started process (PID=61910) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:09.159+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:53:09.160+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.159+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:09.168+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:09.251+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.251+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-13T15:53:09.259+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.259+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-13T15:53:09.264+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.264+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-02-13T15:53:09.264+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.264+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dimension_batch_ingestion' as access control is unset.
+[2025-02-13T15:53:09.264+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.264+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:53:09.272+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.272+0000] {dag.py:2937} INFO - Creating ORM DAG for dimension_batch_ingestion
+[2025-02-13T15:53:09.281+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:09.281+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-11T17:00:00+00:00, run_after=2025-02-12T17:00:00+00:00
+[2025-02-13T15:53:09.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.137 seconds
+[2025-02-13T15:53:39.399+0000] {processor.py:157} INFO - Started process (PID=62122) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:39.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:53:39.401+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:39.401+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:39.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:53:39.429+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:39.428+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:53:39.449+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:53:39.449+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-11T17:00:00+00:00, run_after=2025-02-12T17:00:00+00:00
+[2025-02-13T15:53:39.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.068 seconds
+[2025-02-13T15:54:10.609+0000] {processor.py:157} INFO - Started process (PID=62365) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:10.610+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:54:10.610+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:10.610+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:10.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:10.635+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:10.635+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:54:10.656+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:10.656+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:54:10.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.063 seconds
+[2025-02-13T15:54:41.302+0000] {processor.py:157} INFO - Started process (PID=62614) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:41.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:54:41.304+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:41.303+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:41.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:54:41.330+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:41.330+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:54:41.350+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:54:41.350+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:54:41.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.065 seconds
+[2025-02-13T15:55:12.224+0000] {processor.py:157} INFO - Started process (PID=62779) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:12.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:55:12.226+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:12.226+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:12.235+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:12.252+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:12.252+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:55:12.271+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:12.271+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:55:12.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.064 seconds
+[2025-02-13T15:55:44.580+0000] {processor.py:157} INFO - Started process (PID=63057) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:44.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:55:44.581+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:44.581+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:44.590+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:55:44.606+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:44.606+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:55:44.627+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:55:44.627+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:55:44.643+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.065 seconds
+[2025-02-13T15:56:17.249+0000] {processor.py:157} INFO - Started process (PID=63335) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:17.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:56:17.251+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:17.250+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:17.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:17.274+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:17.273+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:56:17.292+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:17.292+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:56:17.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.059 seconds
+[2025-02-13T15:56:49.531+0000] {processor.py:157} INFO - Started process (PID=63613) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:49.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:56:49.533+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:49.533+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:49.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:56:49.559+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:49.558+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:56:49.579+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:56:49.579+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:56:49.596+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.068 seconds
+[2025-02-13T15:57:22.579+0000] {processor.py:157} INFO - Started process (PID=63891) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:22.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:57:22.581+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:22.580+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:22.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:22.605+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:22.605+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:57:22.625+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:22.624+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:57:22.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.063 seconds
+[2025-02-13T15:57:55.271+0000] {processor.py:157} INFO - Started process (PID=64169) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:55.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:57:55.273+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:55.273+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:55.281+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:57:55.298+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:55.298+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:57:55.319+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:57:55.319+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:57:55.334+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.066 seconds
+[2025-02-13T15:58:26.015+0000] {processor.py:157} INFO - Started process (PID=64454) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:26.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:58:26.017+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:26.017+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:26.025+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:26.042+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:26.042+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:58:26.061+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:26.061+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:58:26.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.064 seconds
+[2025-02-13T15:58:56.396+0000] {processor.py:157} INFO - Started process (PID=64725) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:56.397+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:58:56.398+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:56.398+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:56.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:58:56.428+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:56.427+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:58:56.450+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:58:56.449+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:58:56.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.072 seconds
+[2025-02-13T15:59:26.811+0000] {processor.py:157} INFO - Started process (PID=65023) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:26.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:59:26.813+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:26.813+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:26.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:26.841+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:26.840+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:59:26.862+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:26.862+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:59:26.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.071 seconds
+[2025-02-13T15:59:56.930+0000] {processor.py:157} INFO - Started process (PID=65301) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:56.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T15:59:56.931+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:56.931+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:56.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T15:59:56.956+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:56.956+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T15:59:56.975+0000] {logging_mixin.py:151} INFO - [2025-02-13T15:59:56.975+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T15:59:56.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.061 seconds
+[2025-02-13T16:00:27.317+0000] {processor.py:157} INFO - Started process (PID=65579) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:27.318+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:00:27.318+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:27.318+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:27.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:27.343+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:27.342+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:00:27.360+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:27.360+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:00:27.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.058 seconds
+[2025-02-13T16:00:57.635+0000] {processor.py:157} INFO - Started process (PID=65857) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:57.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:00:57.642+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:57.640+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:57.660+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:00:57.689+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:57.689+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:00:57.723+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:00:57.723+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:00:57.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.128 seconds
+[2025-02-13T16:01:28.134+0000] {processor.py:157} INFO - Started process (PID=66135) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:28.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:01:28.136+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:28.136+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:28.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:28.161+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:28.161+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:01:28.180+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:28.180+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:01:28.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.061 seconds
+[2025-02-13T16:01:58.723+0000] {processor.py:157} INFO - Started process (PID=66413) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:58.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:01:58.725+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:58.725+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:58.732+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:01:58.748+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:58.748+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:01:58.765+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:01:58.765+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:01:58.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.058 seconds
+[2025-02-13T16:02:29.350+0000] {processor.py:157} INFO - Started process (PID=66691) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:02:29.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:02:29.353+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:02:29.352+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:02:29.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:02:29.381+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:02:29.380+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:02:29.401+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:02:29.401+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:02:29.417+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.070 seconds
+[2025-02-13T16:03:06.079+0000] {processor.py:157} INFO - Started process (PID=66964) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:06.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:03:06.080+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:06.080+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:06.088+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:06.104+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:06.104+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:03:06.123+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:06.123+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:03:06.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.061 seconds
+[2025-02-13T16:03:36.196+0000] {processor.py:157} INFO - Started process (PID=67242) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:36.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:03:36.198+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:36.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:36.206+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:03:36.222+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:36.222+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:03:36.243+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:03:36.243+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:03:36.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.064 seconds
+[2025-02-13T16:04:06.356+0000] {processor.py:157} INFO - Started process (PID=67521) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:06.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:04:06.358+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:06.357+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:06.367+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:06.396+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:06.396+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:04:06.422+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:06.422+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:04:06.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.084 seconds
+[2025-02-13T16:04:37.237+0000] {processor.py:157} INFO - Started process (PID=67799) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:37.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:04:37.239+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:37.238+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:37.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:04:37.266+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:37.265+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:04:37.286+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:04:37.285+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:04:37.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.065 seconds
+[2025-02-13T16:05:07.981+0000] {processor.py:157} INFO - Started process (PID=68077) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:07.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:05:07.983+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:07.983+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:07.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:08.005+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:08.005+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:05:08.022+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:08.022+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:05:08.035+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.056 seconds
+[2025-02-13T16:05:38.732+0000] {processor.py:157} INFO - Started process (PID=68355) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:38.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:05:38.734+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:38.734+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:38.745+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:05:38.763+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:38.763+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:05:38.788+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:05:38.788+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:05:38.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.076 seconds
+[2025-02-13T16:06:09.553+0000] {processor.py:157} INFO - Started process (PID=68633) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:09.554+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:06:09.554+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:09.554+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:09.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:09.580+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:09.580+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:06:09.599+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:09.599+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:06:09.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.062 seconds
+[2025-02-13T16:06:40.280+0000] {processor.py:157} INFO - Started process (PID=68911) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:40.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:06:40.284+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:40.282+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:40.296+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:06:40.330+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:40.330+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:06:40.352+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:06:40.352+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:06:40.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.095 seconds
+[2025-02-13T16:07:11.284+0000] {processor.py:157} INFO - Started process (PID=69189) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:11.285+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:07:11.286+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:11.286+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:11.294+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:11.310+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:11.310+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:07:11.329+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:11.328+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:07:11.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.058 seconds
+[2025-02-13T16:07:42.067+0000] {processor.py:157} INFO - Started process (PID=69460) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:42.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:07:42.069+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:42.069+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:42.076+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:07:42.092+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:42.092+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:07:42.215+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:07:42.215+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:07:42.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.163 seconds
+[2025-02-13T16:08:12.422+0000] {processor.py:157} INFO - Started process (PID=69736) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:12.423+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:08:12.423+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:12.423+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:12.431+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:12.448+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:12.447+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:08:12.469+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:12.469+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:08:12.594+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.174 seconds
+[2025-02-13T16:08:45.203+0000] {processor.py:157} INFO - Started process (PID=70001) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:45.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:08:45.205+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:45.205+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:45.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:08:45.233+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:45.232+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:08:45.254+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:08:45.254+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:08:45.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.070 seconds
+[2025-02-13T16:09:17.225+0000] {processor.py:157} INFO - Started process (PID=70279) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:17.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:09:17.227+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:17.227+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:17.234+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:17.250+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:17.250+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:09:17.269+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:17.268+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:09:17.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.059 seconds
+[2025-02-13T16:09:50.625+0000] {processor.py:157} INFO - Started process (PID=70557) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:50.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:09:50.627+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:50.626+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:50.634+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:09:50.651+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:50.651+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:09:50.804+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:09:50.803+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:09:50.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.198 seconds
+[2025-02-13T16:10:22.888+0000] {processor.py:157} INFO - Started process (PID=70835) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:22.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:10:22.890+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:22.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:22.899+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:22.918+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:22.918+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:10:23.074+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:23.074+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:10:23.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.200 seconds
+[2025-02-13T16:10:55.816+0000] {processor.py:157} INFO - Started process (PID=71113) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:55.817+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:10:55.818+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:55.817+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:55.826+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:10:55.843+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:55.843+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:10:55.862+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:10:55.861+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:10:55.876+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.063 seconds
+[2025-02-13T16:11:29.128+0000] {processor.py:157} INFO - Started process (PID=71391) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:11:29.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:11:29.130+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:11:29.130+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:11:29.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:11:29.152+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:11:29.152+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:11:29.170+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:11:29.170+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:11:29.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.058 seconds
+[2025-02-13T16:12:01.400+0000] {processor.py:157} INFO - Started process (PID=71669) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:01.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:12:01.402+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:01.402+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:01.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:01.429+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:01.429+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:12:01.448+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:01.448+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:12:01.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.068 seconds
+[2025-02-13T16:12:34.281+0000] {processor.py:157} INFO - Started process (PID=71947) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:34.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:12:34.283+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:34.283+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:34.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:12:34.305+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:34.305+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:12:34.325+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:12:34.324+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:12:34.339+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.060 seconds
+[2025-02-13T16:13:06.417+0000] {processor.py:157} INFO - Started process (PID=72225) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:06.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:13:06.420+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:06.418+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:06.430+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:06.466+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:06.466+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:13:06.489+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:06.489+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:13:06.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.096 seconds
+[2025-02-13T16:13:39.844+0000] {processor.py:157} INFO - Started process (PID=72503) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:39.845+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:13:39.846+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:39.845+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:39.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:13:39.869+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:39.869+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:13:39.887+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:13:39.887+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:13:39.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.061 seconds
+[2025-02-13T16:14:11.981+0000] {processor.py:157} INFO - Started process (PID=72781) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:11.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:14:11.982+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:11.982+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:11.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:12.007+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:12.006+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:14:12.027+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:12.027+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:14:12.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.063 seconds
+[2025-02-13T16:14:45.167+0000] {processor.py:157} INFO - Started process (PID=73059) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:45.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:14:45.169+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:45.169+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:45.176+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:14:45.192+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:45.192+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:14:45.212+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:14:45.211+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:14:45.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.062 seconds
+[2025-02-13T16:15:17.404+0000] {processor.py:157} INFO - Started process (PID=73337) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:17.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:15:17.406+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:17.406+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:17.413+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:17.429+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:17.429+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:15:17.448+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:17.448+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:15:17.463+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.061 seconds
+[2025-02-13T16:15:50.940+0000] {processor.py:157} INFO - Started process (PID=73615) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:50.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:15:50.942+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:50.941+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:50.950+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:15:50.967+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:50.966+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:15:50.987+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:15:50.987+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:15:51.007+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.069 seconds
+[2025-02-13T16:16:23.050+0000] {processor.py:157} INFO - Started process (PID=73893) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:23.051+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:16:23.052+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:23.052+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:23.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:23.079+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:23.079+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:16:23.098+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:23.097+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:16:23.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.066 seconds
+[2025-02-13T16:16:56.272+0000] {processor.py:157} INFO - Started process (PID=74171) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:56.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:16:56.275+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:56.274+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:56.286+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:16:56.326+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:56.326+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:16:56.350+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:16:56.350+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:16:56.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.100 seconds
+[2025-02-13T16:17:26.575+0000] {processor.py:157} INFO - Started process (PID=74456) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:26.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:17:26.577+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:26.576+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:26.583+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:26.598+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:26.598+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:17:26.614+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:26.614+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:17:26.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.053 seconds
+[2025-02-13T16:17:56.858+0000] {processor.py:157} INFO - Started process (PID=74727) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:56.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:17:56.860+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:56.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:56.867+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:17:56.881+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:56.881+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:17:56.899+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:17:56.898+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:17:56.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.056 seconds
+[2025-02-13T16:18:27.426+0000] {processor.py:157} INFO - Started process (PID=75005) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:27.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:18:27.428+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:27.428+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:27.436+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:27.452+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:27.452+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:18:27.471+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:27.471+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:18:27.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.060 seconds
+[2025-02-13T16:18:57.695+0000] {processor.py:157} INFO - Started process (PID=75283) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:57.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:18:57.697+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:57.697+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:57.704+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:18:57.720+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:57.720+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:18:57.738+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:18:57.738+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:18:57.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.057 seconds
+[2025-02-13T16:19:28.404+0000] {processor.py:157} INFO - Started process (PID=75561) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:28.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:19:28.405+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:28.405+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:28.412+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:28.427+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:28.427+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:19:28.444+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:28.444+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:19:28.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.055 seconds
+[2025-02-13T16:19:58.621+0000] {processor.py:157} INFO - Started process (PID=75839) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:58.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:19:58.622+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:58.622+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:58.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:19:58.645+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:58.644+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:19:58.662+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:19:58.661+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:19:58.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.055 seconds
+[2025-02-13T16:20:29.088+0000] {processor.py:157} INFO - Started process (PID=76117) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:29.089+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:20:29.091+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:29.089+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:29.103+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:29.130+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:29.130+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:20:29.153+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:29.153+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:20:29.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.087 seconds
+[2025-02-13T16:20:59.848+0000] {processor.py:157} INFO - Started process (PID=76395) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:59.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:20:59.852+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:59.850+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:59.861+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:20:59.889+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:59.889+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:20:59.908+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:20:59.908+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:20:59.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.080 seconds
+[2025-02-13T16:21:30.388+0000] {processor.py:157} INFO - Started process (PID=76673) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:21:30.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:21:30.390+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:21:30.390+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:21:30.400+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:21:30.523+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:21:30.523+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dimension_batch_ingestion' as access control is unset.
+[2025-02-13T16:21:30.523+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:21:30.523+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:21:30.543+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:21:30.543+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:21:30.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.175 seconds
+[2025-02-13T16:22:01.296+0000] {processor.py:157} INFO - Started process (PID=76951) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:01.297+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:22:01.297+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:01.297+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:01.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:01.322+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:01.321+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:22:01.340+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:01.340+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:22:01.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.059 seconds
+[2025-02-13T16:22:31.400+0000] {processor.py:157} INFO - Started process (PID=77229) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:31.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:22:31.402+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:31.402+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:31.409+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:22:31.424+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:31.424+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:22:31.441+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:22:31.441+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:22:31.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.055 seconds
+[2025-02-13T16:23:01.491+0000] {processor.py:157} INFO - Started process (PID=77507) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:01.492+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:23:01.493+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:01.493+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:01.501+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:01.518+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:01.518+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:23:01.540+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:01.540+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:23:01.557+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.069 seconds
+[2025-02-13T16:23:32.215+0000] {processor.py:157} INFO - Started process (PID=77778) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:32.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:23:32.216+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:32.216+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:32.223+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:23:32.242+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:32.241+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:23:32.262+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:23:32.262+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:23:32.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.066 seconds
+[2025-02-13T16:24:04.993+0000] {processor.py:157} INFO - Started process (PID=78050) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:04.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:24:04.994+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:04.994+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:05.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:05.122+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:05.122+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dimension_batch_ingestion' as access control is unset.
+[2025-02-13T16:24:05.123+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:05.123+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:24:05.142+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:05.142+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:24:05.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.170 seconds
+[2025-02-13T16:24:36.745+0000] {processor.py:157} INFO - Started process (PID=78213) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:36.746+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:24:36.747+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:36.747+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:36.760+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:24:36.778+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:36.778+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:24:36.801+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:24:36.801+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:24:36.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.075 seconds
+[2025-02-13T16:25:06.955+0000] {processor.py:157} INFO - Started process (PID=78363) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:06.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:25:06.956+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:06.956+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:06.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:07.074+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:07.074+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dimension_batch_ingestion' as access control is unset.
+[2025-02-13T16:25:07.074+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:07.074+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:25:07.092+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:07.091+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:25:07.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.156 seconds
+[2025-02-13T16:25:40.250+0000] {processor.py:157} INFO - Started process (PID=78642) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:40.251+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:25:40.252+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:40.252+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:40.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:25:40.382+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:40.382+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dimension_batch_ingestion' as access control is unset.
+[2025-02-13T16:25:40.382+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:40.382+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:25:40.402+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:25:40.401+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:25:40.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.172 seconds
+[2025-02-13T16:26:12.315+0000] {processor.py:157} INFO - Started process (PID=78920) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:12.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:26:12.318+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:12.316+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:12.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:12.351+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:12.351+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:26:12.371+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:12.370+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:26:12.384+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.073 seconds
+[2025-02-13T16:26:45.144+0000] {processor.py:157} INFO - Started process (PID=79198) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:45.145+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:26:45.146+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:45.145+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:45.153+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:26:45.168+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:45.168+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:26:45.187+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:26:45.186+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:26:45.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.059 seconds
+[2025-02-13T16:27:18.278+0000] {processor.py:157} INFO - Started process (PID=79476) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:18.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:27:18.280+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:18.280+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:18.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:18.302+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:18.301+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:27:18.319+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:18.319+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:27:18.334+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.059 seconds
+[2025-02-13T16:27:51.215+0000] {processor.py:157} INFO - Started process (PID=79754) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:51.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:27:51.217+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:51.216+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:51.225+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:27:51.252+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:51.252+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:27:51.272+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:27:51.272+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:27:51.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.075 seconds
+[2025-02-13T16:28:21.643+0000] {processor.py:157} INFO - Started process (PID=80032) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:28:21.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:28:21.651+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:28:21.648+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:28:21.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:28:31.993+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:28:31.991+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:28:32.039+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:28:32.038+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:28:32.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 6.822 seconds
+[2025-02-13T16:29:04.923+0000] {processor.py:157} INFO - Started process (PID=80309) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:04.924+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:29:04.927+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:04.925+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:04.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:04.956+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:04.956+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:29:04.974+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:04.974+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:29:04.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.071 seconds
+[2025-02-13T16:29:38.450+0000] {processor.py:157} INFO - Started process (PID=80587) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:38.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:29:38.452+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:38.452+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:38.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:29:38.484+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:38.484+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:29:38.505+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:29:38.505+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:29:38.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.072 seconds
+[2025-02-13T16:30:11.040+0000] {processor.py:157} INFO - Started process (PID=80865) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:11.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:30:11.041+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:11.041+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:11.050+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:11.070+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:11.070+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:30:11.091+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:11.090+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:30:11.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.071 seconds
+[2025-02-13T16:30:43.801+0000] {processor.py:157} INFO - Started process (PID=81143) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:43.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:30:43.804+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:43.803+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:43.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:30:43.834+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:43.834+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:30:43.855+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:30:43.855+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:30:43.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.072 seconds
+[2025-02-13T16:31:17.051+0000] {processor.py:157} INFO - Started process (PID=81421) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:17.052+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:31:17.053+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:17.053+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:17.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:17.081+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:17.081+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:31:17.104+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:17.104+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:31:17.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.071 seconds
+[2025-02-13T16:31:49.540+0000] {processor.py:157} INFO - Started process (PID=81699) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:49.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:31:49.542+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:49.542+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:49.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:31:49.573+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:49.573+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:31:49.593+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:31:49.593+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:31:49.607+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.070 seconds
+[2025-02-13T16:32:22.564+0000] {processor.py:157} INFO - Started process (PID=81977) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:22.564+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:32:22.565+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:22.565+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:22.575+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:22.596+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:22.595+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:32:22.614+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:22.614+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:32:22.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.067 seconds
+[2025-02-13T16:32:55.332+0000] {processor.py:157} INFO - Started process (PID=82255) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:55.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:32:55.334+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:55.333+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:55.343+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:32:55.370+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:55.370+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:32:55.392+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:32:55.392+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:32:55.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.078 seconds
+[2025-02-13T16:33:28.751+0000] {processor.py:157} INFO - Started process (PID=82533) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:33:28.752+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:33:28.752+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:33:28.752+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:33:28.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:33:28.780+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:33:28.780+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:33:28.799+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:33:28.799+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:33:28.814+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.067 seconds
+[2025-02-13T16:34:01.102+0000] {processor.py:157} INFO - Started process (PID=82811) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:01.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:34:01.104+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:01.103+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:01.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:01.145+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:01.145+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:34:01.167+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:01.167+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:34:01.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.087 seconds
+[2025-02-13T16:34:34.581+0000] {processor.py:157} INFO - Started process (PID=83089) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:34.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:34:34.582+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:34.582+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:34.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:34:34.609+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:34.609+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:34:34.629+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:34:34.629+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:34:34.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.065 seconds
+[2025-02-13T16:35:07.025+0000] {processor.py:157} INFO - Started process (PID=83367) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:07.026+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:35:07.027+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:07.027+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:07.037+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:07.061+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:07.061+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:35:07.082+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:07.082+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:35:07.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.075 seconds
+[2025-02-13T16:35:40.156+0000] {processor.py:157} INFO - Started process (PID=83645) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:40.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:35:40.161+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:40.158+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:40.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:35:40.256+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:40.255+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:35:40.304+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:35:40.304+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:35:40.332+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.191 seconds
+[2025-02-13T16:36:12.969+0000] {processor.py:157} INFO - Started process (PID=83924) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:12.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:36:12.972+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:12.970+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:12.992+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:13.037+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:13.037+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:36:13.067+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:13.067+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:36:13.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.124 seconds
+[2025-02-13T16:36:45.794+0000] {processor.py:157} INFO - Started process (PID=84203) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:45.795+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:36:45.798+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:45.796+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:45.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:36:45.863+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:45.863+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:36:45.887+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:36:45.887+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:36:45.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.123 seconds
+[2025-02-13T16:37:18.896+0000] {processor.py:157} INFO - Started process (PID=84481) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:18.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:37:18.900+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:18.898+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:18.913+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:18.979+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:18.979+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:37:19.002+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:19.002+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:37:19.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.131 seconds
+[2025-02-13T16:37:51.693+0000] {processor.py:157} INFO - Started process (PID=84760) to work on /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:51.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2025-02-13T16:37:51.697+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:51.695+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:51.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dimension_batch_ingestion']) retrieved from /opt/airflow/dags/loader_dag.py
+[2025-02-13T16:37:51.776+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:51.775+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-13T16:37:51.801+0000] {logging_mixin.py:151} INFO - [2025-02-13T16:37:51.801+0000] {dag.py:3696} INFO - Setting next_dagrun for dimension_batch_ingestion to 2025-02-12T17:00:00+00:00, run_after=2025-02-13T17:00:00+00:00
+[2025-02-13T16:37:51.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.130 seconds

@@ -1,0 +1,31 @@
+[2025-02-12T16:08:54.333+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-01-26T17:00:00+00:00 [queued]>
+[2025-02-12T16:08:54.351+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-01-26T17:00:00+00:00 [queued]>
+[2025-02-12T16:08:54.351+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2025-02-12T16:08:54.379+0000] {taskinstance.py:1380} INFO - Executing <Task(KafkaProduceOperator): generate_txn_fact_data> on 2025-01-26 17:00:00+00:00
+[2025-02-12T16:08:54.395+0000] {standard_task_runner.py:57} INFO - Started process 5762 to run task
+[2025-02-12T16:08:54.405+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'transaction_facts_generator', 'generate_txn_fact_data', 'scheduled__2025-01-26T17:00:00+00:00', '--job-id', '100', '--raw', '--subdir', 'DAGS_FOLDER/transaction_facts_generator_dag.py', '--cfg-path', '/tmp/tmpk231fx1a']
+[2025-02-12T16:08:54.412+0000] {standard_task_runner.py:85} INFO - Job 100: Subtask generate_txn_fact_data
+[2025-02-12T16:08:54.540+0000] {task_command.py:415} INFO - Running <TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2025-01-26T17:00:00+00:00 [running]> on host 5879df32f101
+[2025-02-12T16:08:54.670+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hoyseiha@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transaction_facts_generator' AIRFLOW_CTX_TASK_ID='generate_txn_fact_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-26T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-26T17:00:00+00:00'
+[2025-02-12T16:08:54.678+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]>: connecting to kafka_broker:9092 [('172.20.0.4', 9092) IPv4]
+[2025-02-12T16:08:54.679+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2025-02-12T16:08:54.681+0000] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]> returned error 111. Disconnecting.
+[2025-02-12T16:08:54.681+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2025-02-12T16:08:54.727+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]>: connecting to kafka_broker:9092 [('172.20.0.4', 9092) IPv4]
+[2025-02-12T16:08:54.728+0000] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]> returned error 111. Disconnecting.
+[2025-02-12T16:08:54.728+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.20.0.4', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2025-02-12T16:08:54.729+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/plugins/kafka_operator.py", line 53, in execute
+    producer = KafkaProducer(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/producer/kafka.py", line 381, in __init__
+    client = KafkaClient(metrics=self._metrics, metric_group_prefix='producer',
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 900, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2025-02-12T16:08:54.749+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=transaction_facts_generator, task_id=generate_txn_fact_data, execution_date=20250126T170000, start_date=20250212T160854, end_date=20250212T160854
+[2025-02-12T16:08:54.768+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 100 for task generate_txn_fact_data (NoBrokersAvailable; 5762)
+[2025-02-12T16:08:54.815+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-12T16:08:54.860+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

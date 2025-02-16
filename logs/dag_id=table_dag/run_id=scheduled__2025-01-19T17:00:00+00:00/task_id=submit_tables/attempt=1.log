@@ -1,0 +1,13 @@
+[2025-02-13T15:26:36.340+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: table_dag.submit_tables scheduled__2025-01-19T17:00:00+00:00 [queued]>
+[2025-02-13T15:26:36.353+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: table_dag.submit_tables scheduled__2025-01-19T17:00:00+00:00 [queued]>
+[2025-02-13T15:26:36.354+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2025-02-13T15:26:36.374+0000] {taskinstance.py:1380} INFO - Executing <Task(PinotTableSubmitOperator): submit_tables> on 2025-01-19 17:00:00+00:00
+[2025-02-13T15:26:36.386+0000] {standard_task_runner.py:57} INFO - Started process 47781 to run task
+[2025-02-13T15:26:36.391+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'table_dag', 'submit_tables', 'scheduled__2025-01-19T17:00:00+00:00', '--job-id', '180', '--raw', '--subdir', 'DAGS_FOLDER/table_dag.py', '--cfg-path', '/tmp/tmpsgal3nmb']
+[2025-02-13T15:26:36.392+0000] {standard_task_runner.py:85} INFO - Job 180: Subtask submit_tables
+[2025-02-13T15:26:36.469+0000] {task_command.py:415} INFO - Running <TaskInstance: table_dag.submit_tables scheduled__2025-01-19T17:00:00+00:00 [running]> on host 5879df32f101
+[2025-02-13T15:26:36.587+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hoyseiha@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='table_dag' AIRFLOW_CTX_TASK_ID='submit_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-19T17:00:00+00:00'
+[2025-02-13T15:26:37.669+0000] {pinot_table_operator.py:35} ERROR - An error occurred: HTTPConnectionPool(host='pinot-controller', port=9000): Max retries exceeded with url: /tables (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffb58f6d130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2025-02-13T15:26:37.686+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=table_dag, task_id=submit_tables, execution_date=20250119T170000, start_date=20250213T152636, end_date=20250213T152637
+[2025-02-13T15:26:37.889+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-13T15:26:37.923+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,4 +1,4 @@
-#!/home/august/RealTimeDataWarehouse/dwh/bin/python3
+#!/home/august/RealTimeDataWarehouse/RealTimeDataWarehouse/dwh/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
